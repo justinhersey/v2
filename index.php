@@ -18,7 +18,7 @@
 	<div class="row">
 		<div class="col-12 centered-text">
 			<h2>Ask me a question.</h2>
-			<h3>I promise not to hold it against you.</h3>
+			<h4>I promise not to hold it against you.</h4>
 		</div>
 	</div>
 	<div class="row">
