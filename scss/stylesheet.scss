@@ -181,7 +181,12 @@ nav > ul > li {
 	color: #FF4143;
 	background-color: #fff;
 	text-decoration: none;
-	@include border-radius(2px);
+	text-align: center;
+	@include border-radius(2px);		
+	@include breakpoint(mobileonly) {
+		display: inline-block;
+		width: 100%;
+	}
 }
 
 /*[ forms ]*/
