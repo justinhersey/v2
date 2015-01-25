@@ -1,0 +1,16 @@
+/*[ _weather.scss ]*/
+.weather-icon {
+	display: block;
+	margin: 0 auto;
+	width: 256px;
+	height: 256px;
+}
+
+.weather-forecast {
+	color: #fff;
+	text-align: center;
+	font: {
+		size: 3.75em;
+	}
+	line-height: 5.625em;
+}
