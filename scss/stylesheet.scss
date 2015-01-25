@@ -78,7 +78,10 @@ nav {
 
 nav > ul > li {
 	color: #fff;
-	line-height: 1.96875em;
+	line-height: 4.8em;
+	@include breakpoint(mobileonly) {
+		line-height: 2.4em;
+	}
 }
 
 .nav-toggle { 
