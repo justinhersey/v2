@@ -26,6 +26,13 @@ body {
 	height: 100%;
 }
 
+h3.title {
+	font: {
+		@include heading-font;
+	}
+	color: #fbffff;
+}
+
 p {
 	line-height: 1.5em;
 }
