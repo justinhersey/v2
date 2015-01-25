@@ -20,11 +20,12 @@ function resizeCover(elem) {
 
 function navToggle() {
 	$( "#nav-toggle" ).on( "touchstart click", function(e) {
-		var $this = $(this),
+		var nav = $('nav'),
+			navToggle = $('#nav-toggle'),
 			navList = $('.nav-list');
 		if (!navList.is(':animated')) {
-			$this.toggleClass( "active" );
-			navList.toggleClass('hide animated fadeIn');
+			nav.add(navToggle).toggleClass( "active" );
+			navList.toggleClass('hide');
 		}
 		e.preventDefault();
 	});
