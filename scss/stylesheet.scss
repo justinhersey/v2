@@ -57,6 +57,11 @@ nav {
 			weight: 300;
 			size: 4em;
 		}
+		@include breakpoint(mobileonly) {
+			font: {
+				size: 2em;
+			}
+		}
 	}
 	.active {
 		a {
