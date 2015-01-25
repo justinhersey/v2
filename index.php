@@ -11,7 +11,7 @@
 	<?php include("includes/nav.php"); ?>
 	<div>
 		<img class="weather-icon" src="build/images/sunny.svg" alt="sunny" />
-		<p class="weather-forecast">Test.</p>
+		<p class="weather-forecast">Sunny.</p>
 	</div>
 	
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
