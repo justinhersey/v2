@@ -31,6 +31,12 @@ input {
 	border: none;
 }
 
+h1, h2, h3, h4 {
+	font: {
+		weight: 300;
+	}
+}
+
 h3.title {
 	font: {
 		@include heading-font;
@@ -46,6 +52,10 @@ p {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.centered-text {
+	text-align: center;
 }
 
 nav {
@@ -177,6 +187,9 @@ nav > ul > li {
 }
 
 .button {
+	font: {
+		weight: 700;
+	}
 	padding: 6px 12px;
 	color: #FF4143;
 	background-color: #fff;

@@ -16,13 +16,19 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-12 centered-text">
+			<h2>Ask me a question.</h2>
+			<h3>I promise not to hold it against you.</h3>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-12">
 			<div class="row email-form">
 				<div class="col-8">
 					<input type="text" />
 				</div>
 				<div class="col-4">
-					<a class="button" href="">Email</a>
+					<a class="button" href="">Send</a>
 				</div>
 			</div>
 		</div>
