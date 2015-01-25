@@ -1,9 +1,12 @@
 /*[ stylesheet.scss ]*/
 
-@import "reset.scss";
-@import "colors.scss";
-@import "animations.scss";
-@import "weather.scss";
+@import "reset";
+@import "grid";
+@import "fonts";
+@import "colors";
+@import "animations";
+@import "weather";
+@import "placeholders";
 
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {
@@ -14,9 +17,17 @@ html {
 	height: 100%;
 }
 body {
-	background-color: $sunny;
+	background-color: #343a3e;
+	font: {
+		@include base-font;
+	}
+	color: #7da1ac;
 	width: 100%;
 	height: 100%;
+}
+
+p {
+	line-height: 1.5em;
 }
 
 .list-unstyled {

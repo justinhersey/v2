@@ -43,6 +43,13 @@ module.exports = function(grunt) {
           'build/css/stylesheet.css' : 'build/css/stylesheet.css'
         }
       }
+    },
+
+    watch: {
+      css: {
+        files: 'scss/*.scss',
+        tasks: ['sass']
+      }
     }
 
   });
@@ -52,6 +59,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['compass', 'imagemin']);
+  grunt.registerTask('default', ['sass', 'imagemin']);
 }
