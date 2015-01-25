@@ -19,18 +19,13 @@ function resizeCover(elem) {
 }
 
 function navToggle() {
-	$( "#nav-toggle" ).on('touchstart click', function(e) {
-		var navList = $('.nav-list');
+	$( "#nav-toggle" ).on( "touchstart click", function(e) {
+		var $this = $(this),
+			navList = $('.nav-list');
 		if (!navList.is(':animated')) {
-			$(this).toggleClass( "active" );
-			navList.slideToggle();
+			$this.toggleClass( "active" );
+			navList.toggleClass('hide animated fadeIn');
 		}
-		navList.find('li').each(function(i) {
-			var $this = $(this);
-			setTimeout(function() {
-				$this.addClass('animated fadeInRight'); 
-			}, 500);
-		});
 		e.preventDefault();
 	});
 }
