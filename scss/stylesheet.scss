@@ -27,7 +27,7 @@ body {
 	height: 100%;
 }
 
-input { 
+input, textarea { 
 	border: none;
 }
 
@@ -80,13 +80,10 @@ nav {
 	}
 	.active {
 		a {
-			color: $accentColor;
+			color: #fbffff;
 			font: {
-				family: "Roboto Slab", sans-serif;
 				weight: 700;
 			}
-			border-left: $accentColor 2px solid;
-			padding-left: 4px;
 		}
 	}
 }
@@ -204,9 +201,13 @@ nav > ul > li {
 
 /*[ forms ]*/
 .email-form {
-	input {
+	textarea {
+		display: block;
 		width: 100%;
 		color: $primaryColor;
+		resize: none;
+		margin-bottom: 8px;
+		padding: 8px;
 		@include border-radius(2px);
 	}
 	.button {

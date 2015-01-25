@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="build/css/stylesheet.css" rel="stylesheet" type="text/css">
-	<?php include("includes/fonts.php"); ?>
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-    <!--<script>document.cookie='resolution='+480+'; path=/';</script>-->
-</head>
-<body>
+<?php include("includes/header.php"); ?>
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12">
@@ -25,7 +16,7 @@
 		<div class="col-12">
 			<div class="row email-form">
 				<div class="col-8">
-					<input type="text" />
+					<textarea placeholder="What's your question?"></textarea>
 				</div>
 				<div class="col-4">
 					<a class="button" href="">Send</a>
@@ -51,32 +42,4 @@
 			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
 		</div>
 	</div>
-	
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="build/js/scripts.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			//nav();
-			resizeCover('.project-description-panel');
-			// Listen for orientation changes
-			window.addEventListener("orientationchange", function() {
-				resizeCover('.project-description-panel');
-			}, false);
-			$('.project-description-panel').find('.down-arrow').on('touchstart click', function(e) {
-				$('html, body').animate({
-    				scrollTop: $('.project-description-panel').next().offset().top
-				}, 500);
-				e.preventDefault();
-			});
-			$( "#nav-toggle" ).on( "touchstart click", function(e) {
-				var navList = $('.nav-list');
-				if (!navList.is(':animated')) {
-					$( this ).toggleClass( "active" );
-					navList.slideToggle();
-				}
-				e.preventDefault();
-			});
-		});
-	</script>
-</body>
-</html>
+<?php include("includes/footer.php"); ?>
