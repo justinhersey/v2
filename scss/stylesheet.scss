@@ -103,6 +103,7 @@ nav > ul > li {
 	float: left;
 	font: {
 		@include heading-font;
+		size: 1.125em;
 	}
 }
 
