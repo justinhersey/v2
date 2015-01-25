@@ -62,8 +62,9 @@ nav {
 		a {
 			color: $accentColor;
 			font: {
-				family: "Roboto Slab", sans-serif;
-				weight: 700;
+				@include heading-font;
+				weight: 300;
+				size: 4em;
 			}
 			border-left: $accentColor 2px solid;
 			padding-left: 4px;
