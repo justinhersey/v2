@@ -23,7 +23,7 @@ $total-columns: 12 ;
 }
 
 .row {
-	@extend %clearfix;
+	@include clearfix;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
