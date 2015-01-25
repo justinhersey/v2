@@ -1,15 +1,14 @@
 <?php include("includes/header.php"); ?>
 	<?php include("includes/nav.php"); ?>
-	<div class="row">
+	<!--<div class="row">
 		<div class="col-12">
 			<img class="weather-icon" src="build/images/sunny.svg" alt="sunny" />
 			<p class="weather-forecast">Sunny.</p>
 		</div>
-	</div>
+	</div>-->
 	<div class="row">
 		<div class="col-12 centered-text">
 			<h2>Ask me a question.</h2>
-			<h4>I promise not to hold it against you.</h4>
 		</div>
 	</div>
 	<div class="row">
