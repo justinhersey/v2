@@ -79,6 +79,7 @@ nav {
 nav > ul > li {
 	color: #fff;
 	line-height: 4.8em;
+	text-align: center;
 	@include breakpoint(mobileonly) {
 		line-height: 2.4em;
 	}
