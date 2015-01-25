@@ -2,6 +2,7 @@
 
 @import "reset";
 @import "grid";
+@import "mixins";
 @import "fonts";
 @import "colors";
 @import "animations";
@@ -24,6 +25,10 @@ body {
 	color: #7da1ac;
 	width: 100%;
 	height: 100%;
+}
+
+input { 
+	border: none;
 }
 
 h3.title {
@@ -175,8 +180,24 @@ nav > ul > li {
 	padding: 6px 12px;
 	color: #FF4143;
 	background-color: #fff;
-	border-radius: 3px;
 	text-decoration: none;
+	@include border-radius(2px);
+}
+
+/*[ forms ]*/
+.email-form {
+	input {
+		width: 100%;
+		color: $primaryColor;
+		@include border-radius(2px);
+	}
+	.button {
+		background-color: darken($primaryColor, 5%);
+		color: $textColor;
+		&:hover {
+			background-color: darken($primaryColor, 7%);
+		}
+	}
 }
 
 @media only screen 

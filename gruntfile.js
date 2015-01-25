@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'scss/',
           src: ['*.scss'],
-          dest: 'build/css/',
+          dest: 'css/',
           ext: '.css'
         }]
       }
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       },
       dist : {
         files : {
-          'build/css/stylesheet.css' : 'build/css/stylesheet.css'
+          'build/css/stylesheet.css' : 'css/stylesheet.css'
         }
       }
     },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: 'scss/*.scss',
-        tasks: ['sass']
+        tasks: ['sass', 'autoprefixer']
       }
     }
 

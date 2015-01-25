@@ -30,12 +30,18 @@ $total-columns: 12 ;
 	margin-top: 0;
 	margin-bottom: 0;
 	max-width: 100%;
+	.row {
+		width: auto;
+		margin-left: -0.9375em;
+		margin-right: -0.9375em;
+		max-width: none;
+	}
 }
 
 %columns {
 	position: relative;
-	padding-left: 0.9375rem;
-	padding-right: 0.9375rem;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
 	float: left;
 }
 
@@ -61,7 +67,7 @@ $total-columns: 12 ;
 
 .col-8 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 8);
 }
 
 .col-7 {
@@ -81,15 +87,12 @@ $total-columns: 12 ;
 
 .col-4 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 4);
 }
 
 .col-3 {
 	@extend %columns;
-	width: ($row-width/4);
-	@include breakpoint(mobileonly) {
-		width: 100%;
-	}
+	width: (($row-width/$total-columns) * 3);
 }
 
 .col-2 {
@@ -100,4 +103,10 @@ $total-columns: 12 ;
 .col-1 {
 	@extend %columns;
 	width: 100%;
+}
+
+.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1 {
+	@include breakpoint(mobileonly) {
+		width: 100%;
+	}
 }
