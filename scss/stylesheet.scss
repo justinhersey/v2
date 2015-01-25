@@ -53,18 +53,17 @@ nav {
 		color: $textColor;
 		text-decoration: none;
 		font: {
-			family: 'Open Sans', sans-serif;
+			@include heading-font;
 			weight: 300;
-			size: 1.125em;
+			size: 4em;
 		}
 	}
 	.active {
 		a {
 			color: $accentColor;
 			font: {
-				@include heading-font;
-				weight: 300;
-				size: 4em;
+				family: "Roboto Slab", sans-serif;
+				weight: 700;
 			}
 			border-left: $accentColor 2px solid;
 			padding-left: 4px;
