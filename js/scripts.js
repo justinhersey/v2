@@ -25,7 +25,7 @@ function navToggle() {
 			navList = $('.nav-list');
 		if (!navList.is(':animated')) {
 			nav.add(navToggle).toggleClass( "active" );
-			navList.toggleClass('hide');
+			navList.toggleClass('hide animated fadeInLeft');
 		}
 		e.preventDefault();
 	});
