@@ -1,11 +1,5 @@
 <?php include("includes/header.php"); ?>
 	<?php include("includes/nav.php"); ?>
-	<!--<div class="row">
-		<div class="col-12">
-			<img class="weather-icon" src="build/images/sunny.svg" alt="sunny" />
-			<p class="weather-forecast">Sunny.</p>
-		</div>
-	</div>-->	
 	<div class="row">
 		<div class="col-4">
 			<p class="lead-in"><span class="brand-emphasis">Airstream</span> has a unique history. This saddle-stitch brochure introduces the latest addition to the Airstream family and illustrates the Airstream evolution.</p>
