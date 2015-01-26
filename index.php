@@ -12,24 +12,19 @@
 			<p>At the start of each project, my team and I define </p>
 		</div>
 	</div>
-	<img class="project-image" src="build/images/airstream1.jpg" alt="Airstream" />
-	<img class="project-image" src="build/images/airstream2.jpg" alt="Airstream" />
-	<img class="project-image" src="build/images/airstream3.jpg" alt="Airstream" />
 	<div class="row">
-		<div class="col-12 centered-text">
-			<h2>Ask me a question</h2>
+		<div class="col-4 centered-text">
+			<img class="project-image" src="build/images/airstream1.jpg" alt="Airstream" />
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12">
-			<div class="row email-form">
-				<div class="col-8">
-					<textarea placeholder="What's your question?"></textarea>
-				</div>
-				<div class="col-4">
-					<a class="button" href="">Send question</a>
-				</div>
-			</div>
+		<div class="col-4 centered-text">
+			<img class="project-image" src="build/images/airstream2.jpg" alt="Airstream" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4 centered-text">
+			<img class="project-image" src="build/images/airstream3.jpg" alt="Airstream" />
 		</div>
 	</div>
 	<div class="row">
@@ -48,6 +43,23 @@
 		<div class="col-3">
 			<h3 class="title">Accusamus</h3>
 			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-12 centered-text">
+			<h2>Ask me a question</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="row email-form">
+				<div class="col-8">
+					<textarea placeholder="What's your question?"></textarea>
+				</div>
+				<div class="col-4">
+					<a class="button" href="">Send question</a>
+				</div>
+			</div>
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>

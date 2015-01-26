@@ -154,6 +154,8 @@ nav > ul > li {
 	width: 100%;
 	max-width: 100%;
 	display: block;
+	margin-top: (0.9375em / 2);
+	margin-bottom: (0.9375em / 2);
 }
 
 .button {
@@ -170,6 +172,22 @@ nav > ul > li {
 		display: inline-block;
 		width: 100%;
 	}
+}
+
+.page-footer {
+	margin-top: (0.9375em * 2);
+	margin-bottom: 0.9375em;
+	font: {
+		size: 0.875em;
+		weight: 300;
+	}
+}
+
+/*[ lists ]*/
+.unstyled-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 /*[ forms ]*/
