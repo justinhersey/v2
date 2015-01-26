@@ -38,12 +38,16 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="row email-form">
-				<div class="col-8">
-					<textarea placeholder="What's your question?"></textarea>
-				</div>
-				<div class="col-4">
-					<a class="button" href="">Send question</a>
-				</div>
+				<form>
+					<div class="col-8">
+						<textarea placeholder="What's your question?"></textarea>
+						<label for="email">Your email address:</label>
+						<input name="email" type="text" placeholder="Your email address" />
+					</div>
+					<div class="col-4">
+						<a class="button" href="">Send question</a>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
