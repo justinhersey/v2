@@ -18,7 +18,7 @@
 					<textarea placeholder="What's your question?"></textarea>
 				</div>
 				<div class="col-4">
-					<a class="button" href="">Send</a>
+					<a class="button" href="">Ask question</a>
 				</div>
 			</div>
 		</div>
