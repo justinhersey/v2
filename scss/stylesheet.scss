@@ -62,6 +62,7 @@ p {
 nav {
 	@include clearfix;
 	background-color: #343a3e;
+	background-color: rgba(#343a3e, 0.95);
 	padding: 0.9375em;
 	li:first-child {
 		margin-top: 0.9375em;
