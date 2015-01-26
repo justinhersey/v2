@@ -143,39 +143,6 @@ nav > ul > li {
 	}
 }
 
-.project-description-panel {
-	background-color: #A0AF9C;
-	color: #FFF4E3;
-	padding: 0.9375em;
-	h1 {
-		font: {
-			family: "Roboto Slab", sans-serif;
-			size: 6em;
-			size: 11vw;
-		}
-		&:first-child {
-			margin-top: 0;
-		}
-	}
-	.down-arrow {
-		position: absolute;
-		bottom: 0.9375em;
-		left: 50%;
-		margin-left: -12px;
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
-		span {
-			width: 24px;
-			height: 24px;
-			border-bottom: #FFF4E3 2px solid;
-			border-left: #FFF4E3 2px solid;
-			-webkit-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			display: inline-block;
-			cursor: pointer;
-		}
-	}
-}
-
 .subtitle {
 	font-size: 1rem;
 	font-family: 'Roboto Slab', serif;
