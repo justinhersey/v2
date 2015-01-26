@@ -8,7 +8,7 @@
 	</div>-->	
 	<div class="row">
 		<div class="col-12 centered-text">
-			<p class="lead-in"><span class="brand-emphasis">Airstream</span> has a unique history. A history not many other companies can compare to. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<p class="lead-in"><span class="brand-emphasis">Airstream</span> has a unique history. A history not many other companies can compare with. This saddle-stitch brochure introduces the latest addition to the Airstream family and illustrates the Airstream evolution.</p>
 		</div>
 	</div>
 	<div class="row">
