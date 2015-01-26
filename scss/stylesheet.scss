@@ -67,7 +67,7 @@ nav {
 		margin-top: 0.9375em;
 	}
 	a {
-		color: $textColor;
+		color: #fbffff;
 		text-decoration: none;
 		font: {
 			@include heading-font;
@@ -92,7 +92,6 @@ nav {
 }
 
 nav > ul > li {
-	color: #fff;
 	line-height: 4.8em;
 	@include breakpoint(mobileonly) {
 		line-height: 2.4em;
