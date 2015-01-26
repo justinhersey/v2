@@ -189,7 +189,10 @@ nav > ul > li {
 		size: 1.5em;
 		weight: 300;
 	}
-	line-height: 1.8em;
+	line-height: 1.8em;	
+	@include breakpoint(mobileonly) {
+		text-align: center;
+	}
 
 	.brand-emphasis {
 		color: #fbffff;
