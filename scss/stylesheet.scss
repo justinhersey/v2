@@ -70,7 +70,6 @@ nav {
 		color: #fbffff;
 		text-decoration: none;
 		font: {
-			@include heading-font;
 			weight: 300;
 			size: 4em;
 		}
