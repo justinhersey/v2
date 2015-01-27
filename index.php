@@ -2,7 +2,7 @@
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-4">
-			<p class="lead-in"><span class="brand-emphasis">Airstream</span> has a unique history. This saddle-stitch brochure introduces the latest addition to the Airstream family and illustrates the Airstream evolution.</p>
+			<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>®</sup></span> has been a pioneer in the watersports industry for more than sixty years. In addition to glowing success in the surf and sail markets Hobie Cat manufactures some of the best pedal driven kayaks in the world. </p>
 		</div>
 	</div>
 	<div class="row">
@@ -23,7 +23,7 @@
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
 		</div>
 		<div class="col-4">
-			<h3 class="title">Sketches</h3>
+			<h3 class="title">Project Lead</h3>
 			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 		</div>
 		<div class="col-4">
