@@ -211,7 +211,7 @@ nav > ul > li {
 
 /*[ forms ]*/
 .email-form {
-	input[type="text"], textarea {
+	input[type="text"],input[type="email"], textarea {
 		display: block;
 		width: 100%;
 		color: $primaryColor;

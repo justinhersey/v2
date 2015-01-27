@@ -39,15 +39,7 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="row email-form">
-				<form>
-					<div class="col-8">
-						<textarea placeholder="What's your question?"></textarea>
-						<input name="email" type="text" placeholder="Your email address" />
-					</div>
-					<div class="col-4">
-						<button class="button" type="submit">Send question</button>
-					</div>
-				</form>
+				<?php include("includes/email_form.php"); ?>
 			</div>
 		</div>
 	</div>
