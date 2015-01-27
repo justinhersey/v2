@@ -41,11 +41,10 @@
 				<form>
 					<div class="col-8">
 						<textarea placeholder="What's your question?"></textarea>
-						<label for="email">Your email address:</label>
 						<input name="email" type="text" placeholder="Your email address" />
 					</div>
 					<div class="col-4">
-						<a class="button" href="">Send question</a>
+						<button class="button" type="submit">Send question</button>
 					</div>
 				</form>
 			</div>
