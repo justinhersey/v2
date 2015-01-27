@@ -1,5 +1,5 @@
 <form method="post" action="/cgi-sys/formmail.pl">		
-	<input type="hidden" name="recipient" value="justin.hersey@gmail.com">
+	<input type="hidden" name="recipient" value="">
 	<input type="hidden" name="subject" value="Portfolio Contact">
 	<input type="hidden" name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">  
 	<input type="hidden" name="redirect" value="http://www.pair.com/sent.html">  
