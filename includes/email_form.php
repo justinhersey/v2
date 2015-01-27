@@ -1,4 +1,4 @@
-<form method="post" action="/usr/www/cgi-bin/formmail.pl">		
+<form method="post" action="/fcgi-bin/formmail.pl">		
 	<input type="hidden" name="recipient" value="justin@herseydesigns.com">
 	<input type="hidden" name="subject" value="Portfolio Contact">
 	<input type="hidden" name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">  
