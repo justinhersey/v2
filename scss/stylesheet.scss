@@ -208,10 +208,15 @@ nav > ul > li {
 }
 
 /*[ lists ]*/
-.unstyled-list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+ul {
+	&.unstyled {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	&.inline {
+		display: inline-block;
+	}
 }
 
 /*[ forms ]*/
