@@ -2,8 +2,8 @@
 		<div class="row">
 			<div class="col-12">
 				<ul class="unstyled inline social-icons">
-					<li><img src="build/images/linkedin.svg" alt="LinkedIn" /></li>
-					<li><img src="build/images/twitter.svg" alt="Twitter" /></li>
+					<li><a href="https://www.linkedin.com/pub/justin-hersey/9/918/4" title="LinkedIn"><img src="build/images/linkedin.svg" alt="LinkedIn" /></a></li>
+					<li><a href="https://twitter.com/justinhersey" title="Twitter"><img src="build/images/twitter.svg" alt="Twitter" /></a></li>
 				</ul>
 			</div>
 		</div>
