@@ -4,6 +4,7 @@
 				<ul class="unstyled-list">
 					<li>Footer item</li>
 				</ul>
+				<img src="build/images/InBug-40px-R.png" alt="" />
 			</div>
 		</div>
 	</footer>
