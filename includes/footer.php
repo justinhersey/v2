@@ -3,8 +3,9 @@
 			<div class="col-12">
 				<ul class="unstyled-list">
 					<li>Footer item</li>
+					<li><img src="build/images/linkedin.svg" alt="LinkedIn" /></li>
+					<li><img src="build/images/twitter.svg" alt="Twitter" /></li>
 				</ul>
-				<img src="build/images/InBug-40px-R.png" alt="" />
 			</div>
 		</div>
 	</footer>
