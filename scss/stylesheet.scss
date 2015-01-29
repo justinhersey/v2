@@ -247,6 +247,17 @@ ul {
 	max-width: 100%;
 }
 
+.social-icons {
+	margin-right: 4px;
+	margin-left: 4px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
 .hide {
 	display: none;
 }
