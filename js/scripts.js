@@ -12,10 +12,6 @@ function resizeCover(elem) {
 	var viewportWidthHeight = getViewportDimensions(),
 		viewportWidth = viewportWidthHeight.width,
 		viewportHeight = viewportWidthHeight.height;
-	
-	$(elem).css({
-		'height'	:		viewportHeight
-	});
 }
 
 function navToggle() {
