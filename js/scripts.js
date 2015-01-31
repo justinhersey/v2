@@ -33,7 +33,7 @@ function navToggle() {
 					var $this = $(this);
 					setTimeout(function() {
 						$this.addClass(animateClasses);
-					}, 300*i);
+					}, 150*i);
 				});
 			} else {
 				navListItem.removeClass(animateClasses);
