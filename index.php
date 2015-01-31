@@ -6,17 +6,6 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-4 centered-text">
-			<img class="project-image" src="build/images/airstream1.jpg" alt="Airstream" />
-		</div>
-		<div class="col-4 centered-text">
-			<img class="project-image" src="build/images/airstream2.jpg" alt="Airstream" />
-		</div>
-		<div class="col-4 centered-text">
-			<img class="project-image" src="build/images/airstream3.jpg" alt="Airstream" />
-		</div>
-	</div>
-	<div class="row">
 		<div class="col-4">
 			<h3 class="title">Concept</h3>
 			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
