@@ -22,17 +22,29 @@ function navToggle() {
 	$( "#nav-toggle" ).on( "touchstart click", function(e) {
 		var nav = $('nav'),
 			navToggle = $('#nav-toggle'),
-			navList = $('.nav-list');
+			navList = $('.nav-list'),
+			navListItem = navList.find('li');
 		if (!navList.is(':animated')) {
-			nav.add(navToggle).toggleClass( "active" );
-			navList.toggleClass('hide animated fadeInLeft');
+			nav.add(navToggle).toggleClass('active');
+			navList.toggleClass('hide'),
+			animateClasses = ('animated fadeInLeft');
+			if (!navList.hasClass('hide')) {
+				navListItem.each(function(i) {
+					var $this = $(this);
+					setTimeout(function() {
+						$this.addClass(animateClasses);
+					}, 50*i);
+				});
+			} else {
+				navListItem.removeClass(animateClasses);
+			}
 		}
 		e.preventDefault();
 	});
 }
 
 function nav() {
-	// Hide Header on on scroll down
+	// Hide Header on scroll down
 	var didScroll,
 		lastScrollTop = 0,
 		delta = 5,
