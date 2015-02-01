@@ -12,6 +12,7 @@
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
 			<img src="build/images/livewell-xl.jpg" alt="Livewell XL" />
 			<img src="build/images/livewell-xl.gif" alt="Livewell XL" />
+			<img src="build/images/twist-stow.gif" alt="Livewell XL" />
 		</div>
 		<div class="col-4">
 			<h3 class="title">Project Lead</h3>
