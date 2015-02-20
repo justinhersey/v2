@@ -29,7 +29,7 @@ function navToggle() {
 					var $this = $(this);
 					setTimeout(function() {
 						$this.addClass(animateClasses);
-					}, 100*i);
+					}, 80*i);
 				});
 			} else {
 				navListItem.removeClass(animateClasses);
