@@ -1,7 +1,7 @@
 <?php include("includes/header.php"); ?>
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
-		<div class="col-4">
+		<div class="col-12">
 			<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup></span> has been a pioneer in the watersports industry for more than sixty years. In addition to glowing success in the surf and sail markets Hobie Cat manufactures some of the best pedal driven kayaks in the world. </p>
 		</div>
 	</div>

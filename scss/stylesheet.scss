@@ -103,6 +103,7 @@ nav > ul > li {
 }
 
 .nav-list {
+	text-align: center;
 	li {
 		opacity: 0;
 	}
@@ -196,12 +197,16 @@ nav > ul > li {
 .lead-in {
 	font: {
 		@include heading-font;
-		size: 1.5em;
+		size: 3.5em;
 		weight: 300;
 	}
-	line-height: 1.8em;	
+	line-height: 84px;	
 	@include breakpoint(mobileonly) {
 		text-align: center;
+		font: {
+			size: 1.5em;
+		}
+		line-height: 36px;
 	}
 
 	.brand-emphasis {

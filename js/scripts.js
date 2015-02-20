@@ -23,7 +23,7 @@ function navToggle() {
 		if (!navList.is(':animated')) {
 			nav.add(navToggle).toggleClass('active');
 			navList.toggleClass('hide'),
-			animateClasses = ('animated fadeInLeft');
+			animateClasses = ('animated fadeInUp');
 			if (!navList.hasClass('hide')) {
 				navListItem.each(function(i) {
 					var $this = $(this);
