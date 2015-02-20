@@ -210,9 +210,9 @@ p {
 	@include breakpoint(mobileonly) {
 		text-align: center;
 		font: {
-			size: 1.5em;
+			size: 1.3125em;
 		}
-		line-height: 36px;
+		line-height: 31.5px;
 	}
 
 	.brand-emphasis {
