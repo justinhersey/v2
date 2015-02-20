@@ -1,5 +1,5 @@
 /*[ _grid.scss ]*/
-$row-width: 100%;
+$row-width: 62.5rem;
 $column-gutter: rem-calc(30);
 $total-columns: 12 ;
 
@@ -29,7 +29,7 @@ $total-columns: 12 ;
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	max-width: 100%;
+	max-width: $row-width;
 	.row {
 		width: auto;
 		margin-left: -0.9375em;
