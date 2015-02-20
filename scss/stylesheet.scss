@@ -65,10 +65,9 @@ p {
 	text-align: center;
 }
 
-nav {
+.nav {
 	@include clearfix;
-	background-color: #343a3e;
-	background-color: rgba(#343a3e, 0.9);
+	background-color: $primaryColorDarken;
 	padding: 0.9375em;
 	li:first-child {
 		margin-top: 0.9375em;
@@ -104,6 +103,7 @@ nav {
 }
 
 .nav-list {
+	overflow: hidden;
 	text-align: center;
 	li {
 		opacity: 0;
@@ -203,10 +203,10 @@ nav {
 .lead-in {
 	font: {
 		@include heading-font;
-		size: 3.5em;
+		size: 2.5em;
 		weight: 300;
 	}
-	line-height: 84px;	
+	line-height: 60px;	
 	@include breakpoint(mobileonly) {
 		text-align: center;
 		font: {

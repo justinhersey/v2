@@ -47,22 +47,22 @@ $total-columns: 12 ;
 
 .col-12 {
 	@extend %columns;
-	width: $row-width;
+	width: 100%
 }
 
 .col-11 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 11);
 }
 
 .col-10 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 10);
 }
 
 .col-9 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 9);
 }
 
 .col-8 {
@@ -72,17 +72,17 @@ $total-columns: 12 ;
 
 .col-7 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 7);
 }
 
 .col-6 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 6);
 }
 
 .col-5 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 5);
 }
 
 .col-4 {
@@ -97,12 +97,12 @@ $total-columns: 12 ;
 
 .col-2 {
 	@extend %columns;
-	width: 100%;
+	width: (($row-width/$total-columns) * 2);
 }
 
 .col-1 {
 	@extend %columns;
-	width: 100%;
+	width: ($row-width/$total-columns);
 }
 
 .col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1 {

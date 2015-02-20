@@ -2,7 +2,6 @@
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12">
-			<p><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup></span></p>
 			<p class="lead-in"><span class="brand-emphasis">Hobie Cat&rsquo;s</span> website was a ground up redesign. I was tasked with developing much of the way we market our products on our website. I develop the content for the project by first interviewing our product managers, product designers and engineers. In collaboration </p>
 		</div>
 	</div>
