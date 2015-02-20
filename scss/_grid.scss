@@ -77,7 +77,8 @@ $total-columns: 12 ;
 
 .col-6 {
 	@extend %columns;
-	width: (($row-width/$total-columns) * 6);
+	width: 100%;
+	max-width: (($row-width/$total-columns) * 6);
 }
 
 .col-5 {
@@ -103,6 +104,50 @@ $total-columns: 12 ;
 .col-1 {
 	@extend %columns;
 	width: ($row-width/$total-columns);
+}
+
+.offset-11 {
+	margin-left: (($row-width/$total-columns) * 11);
+}
+
+.offset-10 {
+	margin-left: (($row-width/$total-columns) * 10);
+}
+
+.offset-9 {
+	margin-left: (($row-width/$total-columns) * 9);
+}
+
+.offset-8 {
+	margin-left: (($row-width/$total-columns) * 8);
+}
+
+.offset-7 {
+	margin-left: (($row-width/$total-columns) * 7);
+}
+
+.offset-6 {
+	margin-left: (($row-width/$total-columns) * 6);
+}
+
+.offset-5 {
+	margin-left: (($row-width/$total-columns) * 5);
+}
+
+.offset-4 {
+	margin-left: (($row-width/$total-columns) * 4);
+}
+
+.offset-3 {
+	margin-left: (($row-width/$total-columns) * 3);
+}
+
+.offset-2 {
+	margin-left: (($row-width/$total-columns) * 2);
+}
+
+.offset-1 {
+	margin-left: ($row-width/$total-columns);
 }
 
 .col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1 {
