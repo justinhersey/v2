@@ -88,6 +88,12 @@ nav {
 			line-height: 38.4px;
 		}
 	}
+	sup {
+		font: {
+			size: .4875em;
+		}
+		top: -0.8em;
+	}
 	&.active {
 		position: absolute;
 		top: 0;
