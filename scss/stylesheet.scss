@@ -80,10 +80,12 @@ nav {
 			weight: 300;
 			size: 4em;
 		}
+		line-height: 76.8px;
 		@include breakpoint(mobileonly) {
 			font: {
 				size: 2em;
 			}
+			line-height: 38.4px;
 		}
 	}
 	&.active {
@@ -95,17 +97,12 @@ nav {
 	}
 }
 
-nav > ul > li {
-	line-height: 4.8em;
-	@include breakpoint(mobileonly) {
-		line-height: 2.4em;
-	}
-}
-
 .nav-list {
 	text-align: center;
 	li {
 		opacity: 0;
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 }
 
