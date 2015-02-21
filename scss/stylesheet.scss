@@ -127,14 +127,15 @@ p {
 	}
 
 	a:link, a:visited {
-		border-bottom: transparent 2px solid;
 		color: $textColor;
 		text-decoration: none;
+		border: $textColor 1px solid;
+		padding: 8px 12px;
 	}
 
 	a:hover, a:active {
-		border-bottom: $white 2px solid;
 		color: $white;
+		border-color: $white;
 	}
 }
 
