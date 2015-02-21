@@ -1,4 +1,4 @@
-<div class="col-12">
+<div class="col-12 columns">
 	<h2>Ask me a question</h2>
 	<form id="form1" class="email-form" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://justinhersey.wufoo.com/forms/zfr4bdj0h75w7t/#public">
 		<textarea id="Field1" name="Field1" spellcheck="true"rows="5" cols="50" tabindex="1" onkeyup="" required placeholder="What's your question?"></textarea>
