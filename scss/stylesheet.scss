@@ -32,7 +32,7 @@ input, textarea {
 }
 
 h1, h2, h3, h4 {
-	color: #fbffff;
+	color: $white;
 	font: {
 		weight: 300;
 	}
@@ -48,7 +48,7 @@ h3.title {
 	font: {
 		@include heading-font;
 	}
-	color: #fbffff;
+	color: $white;
 }
 
 p {
@@ -120,6 +120,17 @@ p {
 	font: {
 		@include heading-font;
 		size: 1.125em;
+	}
+
+	a:link, a:visited {
+		border-bottom: transparent 2px solid;
+		color: $textColor;
+		text-decoration: none;
+	}
+
+	a:hover, a:active {
+		border-bottom: $white 2px solid;
+		color: $white;
 	}
 }
 
