@@ -72,21 +72,6 @@ p {
 	li:first-child {
 		margin-top: 0.9375em;
 	}
-	a {
-		color: #fbffff;
-		text-decoration: none;
-		font: {
-			weight: 300;
-			size: 4em;
-		}
-		line-height: 76.8px;
-		@include breakpoint(mobileonly) {
-			font: {
-				size: 2em;
-			}
-			line-height: 38.4px;
-		}
-	}
 	sup {
 		font: {
 			size: .4875em;
@@ -111,6 +96,21 @@ p {
 		padding-bottom: 8px;
 		&:hover {
 			background-color: $primaryColorDarken;
+		}
+	}
+	a {
+		color: #fbffff;
+		text-decoration: none;
+		font: {
+			weight: 300;
+			size: 4em;
+		}
+		line-height: 76.8px;
+		@include breakpoint(mobileonly) {
+			font: {
+				size: 2em;
+			}
+			line-height: 38.4px;
 		}
 	}
 }
