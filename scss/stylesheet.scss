@@ -68,7 +68,8 @@ p {
 .nav {
 	@include clearfix;
 	background-color: $primaryColor;
-	padding: 0.9375em;
+	padding-top: 0.9375em;
+	padding-bottom: 0.9375em;
 	li:first-child {
 		margin-top: 0.9375em;
 	}
