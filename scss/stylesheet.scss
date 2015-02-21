@@ -220,7 +220,6 @@ p {
 	}
 	line-height: 60px;	
 	@include breakpoint(mobileonly) {
-		text-align: center;
 		font: {
 			size: 1.3125em;
 		}
