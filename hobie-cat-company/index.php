@@ -30,8 +30,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12  columns">
-			<div class="row email-form">
+		<div class="col-12 columns">
+			<div class="email-form">
 				<?php include("../includes/email_form.php"); ?>
 			</div>
 		</div>
