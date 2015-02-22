@@ -1,1 +1,1 @@
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Open+Sans:300italic,300,400,700' rel='stylesheet' type='text/css'>
