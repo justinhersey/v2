@@ -7,7 +7,7 @@
 	</div>
 	<div class="row">
 		<div class="col-12 columns">
-			<h2>Work</h2>
+			<h2>Hand-picked Work</h2>
 		</div>
 	</div>
 	<div class="row block-grid work">
