@@ -194,6 +194,9 @@ p {
 	@include breakpoint(mobileonly) {
 		text-align: center;
 	}
+	.columns:not(:last-child) {
+		margin-bottom: 0.9375em;
+	}
 }
 
 .subtitle {
