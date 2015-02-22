@@ -23,7 +23,7 @@
 			<img src="build/images/malibu-sketches.jpg" alt="Malibu Boats" />
 		</div><!--
 		--><div class="col-4 columns">
-			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+			<img src="build/images/malibu-top.jpg" alt="Malibu Boats" />
 		</div><!--
 		--><div class="col-4 columns">
 			<h2>Malibu Boats</h2>
