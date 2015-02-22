@@ -189,13 +189,17 @@ p {
 		weight: 700;
 	}
 	padding: 12px 16px;
-	color: #FF4143;
+	color: $textColor;
 	text-decoration: none;
 	text-align: center;
 	@include border-radius(2px);		
 	@include breakpoint(mobileonly) {
 		display: inline-block;
 		width: 100%;
+	}
+	&:hover {
+		background: linear-gradient(to top, #eee, $white);
+		color: $primaryColor;
 	}
 }
 
@@ -253,12 +257,7 @@ ul {
 		@include border-radius(2px);
 	}
 	.button {
-		background-color: darken($primaryColor, 5%);
 		border: none;
-		color: $textColor;
-		&:hover {
-			background-color: darken($primaryColor, 7%);
-		}
 	}
 }
 
