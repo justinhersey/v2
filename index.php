@@ -13,13 +13,9 @@
 	<div class="row block-grid work">
 		<div class="col-4 columns">
 			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
-			<h3 class="title">Hobie Cat Company</h3>
-			<p>We begin with the creative brief.</p>
 		</div><!--
 		--><div class="col-4 columns">
 			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
-			<h3 class="title">Malibu Boats</h3>
-			<p>Design &amp; Photography Art Direction</p>
 		</div><!--
 		--><div class="col-4 columns">
 			<div class="title">Hobie Cat Company</div>
