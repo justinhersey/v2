@@ -46,53 +46,51 @@ $total-columns: 12 ;
 }
 
 .col-12 {
-	width: 100%
+	max-width: 100%
 }
 
 .col-11 {
-	width: (($row-width/$total-columns) * 11);
+	max-width: (($row-width/$total-columns) * 11);
 }
 
 .col-10 {
-	width: (($row-width/$total-columns) * 10);
+	max-width: (($row-width/$total-columns) * 10);
 }
 
 .col-9 {
-	width: (($row-width/$total-columns) * 9);
+	max-width: (($row-width/$total-columns) * 9);
 }
 
 .col-8 {
-	width: (($row-width/$total-columns) * 8);
+	max-width: (($row-width/$total-columns) * 8);
 }
 
 .col-7 {
-	width: (($row-width/$total-columns) * 7);
+	max-width: (($row-width/$total-columns) * 7);
 }
 
 .col-6 {
-	width: 100%;
 	max-width: (($row-width/$total-columns) * 6);
 }
 
 .col-5 {
-	width: (($row-width/$total-columns) * 5);
+	max-width: (($row-width/$total-columns) * 5);
 }
 
 .col-4 {
-	width: 100%;
 	max-width: (($row-width/$total-columns) * 4);
 }
 
 .col-3 {
-	width: (($row-width/$total-columns) * 3);
+	max-width: (($row-width/$total-columns) * 3);
 }
 
 .col-2 {
-	width: (($row-width/$total-columns) * 2);
+	max-width: (($row-width/$total-columns) * 2);
 }
 
 .col-1 {
-	width: ($row-width/$total-columns);
+	max-width: ($row-width/$total-columns);
 }
 
 .offset-11 {
@@ -140,8 +138,9 @@ $total-columns: 12 ;
 }
 
 .col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1 {
+	width: 100%;
 	@include breakpoint(mobileonly) {
-		width: 100%;
+		max-width: 100%;
 	}
 }
 
