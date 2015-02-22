@@ -20,7 +20,7 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-4 columns">
-			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
+			<img src="build/images/malibu-sketches.jpg" alt="Malibu Boats" />
 		</div><!--
 		--><div class="col-4 columns">
 			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
