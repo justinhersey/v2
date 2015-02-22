@@ -13,9 +13,9 @@
 			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
 		</div><!--
 		--><div class="col-4 columns">
-			<h2>Hobie Cat Company</h2>
+			<h2>Hobie Cat<sup>&reg;</sup> Company</h2>
 			<p>Design &amp; Frontend</p>
-			<a class="button" href="">Review</a>
+			<a class="button" href="/hobie-cat-company/">Review</a>
 		</div>
 	</div>
 	<div class="row block-grid work">
@@ -28,7 +28,7 @@
 		--><div class="col-4 columns">
 			<h2>Malibu Boats</h2>
 			<p>Design &amp; Photography Art Direction</p>
-			<a class="button" href="">Review</a>
+			<a class="button" href="/malibu-boats/">Review</a>
 		</div>
 	</div>
 	<div class="row">
