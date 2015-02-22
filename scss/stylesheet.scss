@@ -44,6 +44,12 @@ img {
 	height: auto;
 }
 
+%inline-block {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
 h3.title {
 	font: {
 		@include heading-font;
@@ -169,6 +175,24 @@ p {
 	}
 }
 
+.work {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	h2 {
+		font: {
+			@include heading-font;
+		}
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	p {
+		margin-top: 0;
+		font: {
+			style: italic;
+		}
+	}
+}
+
 .subtitle {
 	font-size: 1rem;
 	font-family: 'Roboto Slab', serif;
@@ -184,6 +208,7 @@ p {
 }
 
 .button {
+	@extend %inline-block;
 	background: linear-gradient(to top, #eee, $white);
 	font: {
 		weight: 700;
