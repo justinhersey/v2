@@ -24,7 +24,7 @@
 		</div><!--
 		--><div class="col-4 columns">
 			<h3 class="title">Hobie Cat Company</h3>
-			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>Nearly every design is sketched on paper before any photography art direction is given. We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
 		</div><!--
 		--><div class="col-4 columns">

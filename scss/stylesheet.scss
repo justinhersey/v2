@@ -184,12 +184,12 @@ p {
 }
 
 .button {
+	background: linear-gradient(to top, #ccc, $white);
 	font: {
 		weight: 700;
 	}
 	padding: 12px 16px;
 	color: #FF4143;
-	background-color: #fff;
 	text-decoration: none;
 	text-align: center;
 	@include border-radius(2px);		
