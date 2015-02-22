@@ -93,7 +93,6 @@ p {
 
 .nav-list {
 	overflow: hidden;
-	text-align: center;
 	li {
 		opacity: 0;
 		padding-top: 8px;
@@ -106,16 +105,10 @@ p {
 		color: #fbffff;
 		text-decoration: none;
 		font: {
+			size: 1.875em;
 			weight: 300;
-			size: 4em;
 		}
-		line-height: 76.8px;
-		@include breakpoint(mobileonly) {
-			font: {
-				size: 2em;
-			}
-			line-height: 38.4px;
-		}
+		line-height: 2.25;
 	}
 }
 
