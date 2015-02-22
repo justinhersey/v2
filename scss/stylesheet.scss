@@ -190,6 +190,9 @@ p {
 		font: {
 			style: italic;
 		}
+	}	
+	@include breakpoint(mobileonly) {
+		text-align: center;
 	}
 }
 
