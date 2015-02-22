@@ -17,12 +17,14 @@
 			<p>We begin with the creative brief.</p>
 		</div><!--
 		--><div class="col-4 columns">
-			<h3 class="title">Project Lead</h3>
-			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+			<h3 class="title">Malibu Boats</h3>
+			<p>Design &amp; Photography Art Direction</p>
 		</div><!--
 		--><div class="col-4 columns">
-			<h3 class="title">Accusamus</h3>
-			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+			<div class="title">Hobie Cat Company</div>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p><a class="button" href="">Review</a></p>
 		</div><!--
 		--><div class="col-4 columns">
 			<h3 class="title">Hobie Cat Company</h3>
@@ -41,7 +43,7 @@
 	</div>
 	<div class="row">
 		<div class="col-12 columns">
-			<div class="row email-form">
+			<div class="email-form">
 				<?php include("includes/email_form.php"); ?>
 			</div>
 		</div>
