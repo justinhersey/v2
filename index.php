@@ -5,6 +5,11 @@
 			<p class="lead-in">Hello, I'm Justin. I'm a designer with an education in graphic design working in web marketing. I identify opportunities, define the opportunities, and lead teams, through collaboration, to develop solutions.</p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-12 columns">
+			<h2>Work</h2>
+		</div>
+	</div>
 	<div class="row block-grid work">
 		<div class="col-4 columns">
 			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
