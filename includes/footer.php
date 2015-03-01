@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="../build/js/scripts.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			navToggle();
+			
 		});
 	</script>
 </body>

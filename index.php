@@ -8,7 +8,7 @@
 	<div class="row block-grid work">
 		<div class="col-12 columns">
 			<h2>Hobie Cat<sup>&reg;</sup> Company</h2>
-			<p>Design &amp; Frontend</p>
+			<p>Design, Front-end &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
 			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
