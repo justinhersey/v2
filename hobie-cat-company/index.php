@@ -3,7 +3,7 @@
 	<?php include("../includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12 columns">
-			<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company</span><br /> This consumer facing website was a ground up redesign. I was tasked with developing much of the way we market our products on our website. I develop the content for the project by first interviewing our product managers, product designers and engineers. In collaboration </p>
+			<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company.</span> I was tasked with developing much of the way we market our products on our website. I develop the content for the project by first interviewing our product managers, product designers and engineers. In collaboration </p>
 		</div>
 	</div>
 	<div class="row block-grid work">
@@ -16,7 +16,41 @@
 		--><div class="col-4 columns">
 			<img src="../build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
 		</div>
-	</div>	
+	</div>
+	<div class="row">
+		<div class="col-6 columns">
+			<h3 class="title">Concept</h3>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
+		</div>
+		<div class="col-6 columns">
+			<h3 class="title">Concept</h3>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-4 columns">
+			<img src="../build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="../build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="../build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-1 columns">
+			<img src="../build/images/weather-partly-sunny.svg" alt="Partly Sunny" width="53" height="53" />
+		</div><!--
+		--><div class="col-1 columns">
+			<img src="../build/images/weather-snow.svg" alt="Snow" width="53" height="53" />
+		</div><!--
+		--><div class="col-1 columns">
+			<img src="../build/images/weather-partly-sunny.png" alt="Partly Sunny" width="53" height="53" />
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-4 columns">
 			<h3 class="title">Concept</h3>
