@@ -125,8 +125,8 @@ p {
 	a:link, a:visited {
 		color: $textColor;
 		text-decoration: none;
-		border-bottom: $textColor 2px solid;
-		padding-bottom: 4px;
+		border-top: $textColor 2px solid;
+		padding-top: 4px;
 	}
 
 	a:hover, a:active {
@@ -182,6 +182,10 @@ p {
 		}
 		margin-top: 0;
 		margin-bottom: 0;
+		span {
+			border-top: #fff 2px solid;
+			padding-top: 4px;
+		}
 	}
 	p {
 		margin-top: 0;

@@ -7,7 +7,7 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2>Hobie Cat<sup>&reg;</sup> Company</h2>
+			<h2><span>Hobie Cat<sup>&reg;</sup> Company</span></h2>
 			<p>Design, Front-end &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
@@ -22,7 +22,7 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2>Malibu Boats</h2>
+			<h2><span>Malibu Boats</span></h2>
 			<p>Design &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
@@ -37,8 +37,8 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2>Marvin Road Mini Storage</h2>
-			<p>Design, Front-end &amp; Art Direction</p>
+			<h2><span>Logos &amp; Icons</span></h2>
+			<p>Design &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
 			<img src="build/images/mrms-logo.jpg" alt="Hobie Cat Company" />
@@ -47,12 +47,12 @@
 			<img src="build/images/mrms1.jpg" alt="Livewell XL Final Product" />
 		</div><!--
 		--><div class="col-4 columns">
-			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+			<img src="build/images/mrms.png" alt="Livewell XL Final Product" />
 		</div>
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2>Smith Action Optics</h2>
+			<h2><span>Smith Action Optics</span></h2>
 			<p>Design</p>
 		</div>
 		<div class="col-4 columns">
