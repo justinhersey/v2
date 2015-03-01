@@ -75,9 +75,7 @@ p {
 	@include clearfix;
 	background-color: $primaryColor;
 	padding-top: 5%;
-	@include breakpoint(mobileonly) {
-		padding-top: 0.9375em;
-	}
+
 	padding-bottom: 0.9375em;
 	li:first-child {
 		margin-top: 0.9375em;
@@ -298,9 +296,10 @@ ul {
 }
 
 .social-icons {
+	text-align: center;
 	li {
-		margin-right: 4px;
-		margin-left: 4px;
+		margin-right: 8px;
+		margin-left: 8px;
 		&:first-child {
 			margin-left: 0;
 		}
