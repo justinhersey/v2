@@ -2,10 +2,11 @@
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12 columns">
-			<p class="lead-in"><span class="brand-emphasis">Hello, I'm Justin.</span> I'm a designer with an education in graphic design working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration.</p>
+			<p class="lead-in"><span class="brand-emphasis">Hello, I'm Justin.</span> I'm a designer working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration.</p>
 		</div>
 	</div>
 	<div class="row block-grid work">
+		<div class="col-12 columns text-centered">Selected Work</div>
 		<div class="col-4 columns">
 			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
 		</div><!--
@@ -15,7 +16,7 @@
 		--><div class="col-4 columns">
 			<h2>Hobie Cat<sup>&reg;</sup> Company</h2>
 			<p>Design &amp; Frontend</p>
-			<a class="button" href="/hobie-cat-company/">Review</a>
+			<a class="button" href="/hobie-cat-company/">Review Project</a>
 		</div>
 	</div>
 	<div class="row block-grid work">
@@ -28,7 +29,7 @@
 		--><div class="col-4 columns">
 			<h2>Malibu Boats</h2>
 			<p>Design &amp; Photography Art Direction</p>
-			<a class="button" href="/malibu-boats/">Review</a>
+			<a class="button" href="/malibu-boats/">Review Project</a>
 		</div>
 	</div>
 	<div class="row">
