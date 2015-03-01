@@ -6,7 +6,6 @@
 		</div>
 	</div>
 	<div class="row block-grid work">
-		<div class="col-12 columns text-centered">Selected Work</div>
 		<div class="col-4 columns">
 			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
 		</div><!--
