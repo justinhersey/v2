@@ -23,16 +23,46 @@
 	<div class="row block-grid work">
 		<div class="col-12 columns">
 			<h2>Malibu Boats</h2>
-			<p>Design &amp; Photography Art Direction</p>
+			<p>Design &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
-			<img src="build/images/malibu-sketches.jpg" alt="Malibu Boats" />
+			<img src="build/images/malibu2.jpg" alt="Malibu Boats" />
 		</div><!--
 		--><div class="col-4 columns">
 			<img src="build/images/malibu-top.jpg" alt="Malibu Boats" />
 		</div><!--
 		--><div class="col-4 columns">
+			<img src="build/images/malibu1.jpg" alt="Malibu Boats" />
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-12 columns">
+			<h2>Marvin Road Mini Storage</h2>
+			<p>Design, Front-end &amp; Art Direction</p>
+		</div>
+		<div class="col-4 columns">
+			<img src="build/images/mrms-logo.jpg" alt="Hobie Cat Company" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/mrms1.jpg" alt="Livewell XL Final Product" />
+		</div><!--
+		--><div class="col-4 columns">
 			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-12 columns">
+			<h2>Smith Action Optics</h2>
+			<p>Design</p>
+		</div>
+		<div class="col-4 columns">
+			<img src="build/images/smith2.jpg" alt="Malibu Boats" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/smith1.jpg" alt="Malibu Boats" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/smith3.jpg" alt="Malibu Boats" />
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>
