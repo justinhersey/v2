@@ -18,7 +18,7 @@ html {
 }
 body {
 	position: relative;
-	background-color: #343a3e;
+	background-color: $primaryColor;
 	font: {
 		@include base-font;
 	}
@@ -198,6 +198,9 @@ p {
 	}
 	.columns:not(:last-child) {
 		margin-bottom: 0.9375em;
+	}
+	img {
+		border-radius: 2px;
 	}
 }
 

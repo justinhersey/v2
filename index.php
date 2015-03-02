@@ -11,13 +11,13 @@
 			<p>Design, Front-end &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
-			<img src="build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
+			<img src="build/images/sidekick-ama-kit.png" alt="Sidekick Ama Kit" />
 		</div><!--
 		--><div class="col-4 columns">
-			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+			<img src="build/images/livewell.png" alt="Livewell" />
 		</div><!--
 		--><div class="col-4 columns">
-			<img src="build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+			<img src="build/images/carts.png" alt="Carts" />
 		</div>
 	</div>
 	<div class="row block-grid work">
@@ -41,13 +41,10 @@
 			<p>Design &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
-			<img src="build/images/mrms-logo.jpg" alt="Hobie Cat Company" />
+			<img src="build/images/mrms-logo.jpg" alt="Marvin Road Mini Storage Logo" />
 		</div><!--
 		--><div class="col-4 columns">
-			<img src="build/images/mrms1.jpg" alt="Livewell XL Final Product" />
-		</div><!--
-		--><div class="col-4 columns">
-			<img src="build/images/mrms.png" alt="Livewell XL Final Product" />
+			<img src="build/images/weather-icons.jpg" alt="Weather Icons" />
 		</div>
 	</div>
 	<div class="row block-grid work">
