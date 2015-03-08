@@ -1,23 +1,49 @@
+<!--[ hobie-cat-company/index.php ]-->
 <?php $thisPage="Malibu Boats"; ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1"><link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
-	<?php include("../includes/fonts.php"); ?>
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-</head>
-<body>
-
-	<?php include("../includes/nav.php"); ?>
-	
-	<div class="project-description-panel">
-		<h1>Malibu Boats</h1>
-		<p><strong>Project:</strong> Malibu Boats Brochure<br />
-		<strong>Role:</strong> Art Director / Designer</p>
-		<div class="floating down-arrow"><span></span></div>
+<?php include("../includes/header.php"); ?>
+	<div class="malibu-boats">
+		<?php include("../includes/nav.php"); ?>
+		<div class="row">
+			<div class="col-12 columns">
+				<p class="lead-in"><span class="brand-emphasis">Malibu Boats.</span> Working with Flannel Design in Redmond, WA. I was given the opportunity to work with Malibu Boats on their annual brochure.</p>
+			</div>
+		</div>
 	</div>
-	
+	<div class="row">
+		<div class="col-6 columns">
+			<h3 class="title">Concept</h3>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
+		</div>
+		<div class="col-6 columns">
+			<h3 class="title">Concept</h3>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-4 columns">
+			<img src="../build/images/livewell-xl.jpg" alt="Hobie Cat Company" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="../build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="../build/images/livewell-xl-final.jpg" alt="Livewell XL Final Product" />
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-1 columns">
+			<img src="../build/images/weather-partly-sunny.svg" alt="Partly Sunny" width="53" height="53" />
+		</div><!--
+		--><div class="col-1 columns">
+			<img src="../build/images/weather-snow.svg" alt="Snow" width="53" height="53" />
+		</div><!--
+		--><div class="col-1 columns">
+			<img src="../build/images/weather-partly-sunny.png" alt="Partly Sunny" width="53" height="53" />
+		</div>
+	</div>
+
 	<section class="project">
 		<img class="project-image" src="http://herseydesigns.com/images/bg_images/malibu1.jpg" alt="Malibu Boats" />
 		<img class="project-image" src="http://herseydesigns.com/images/bg_images/malibu2.jpg" alt="Malibu Boats" />
@@ -27,32 +53,20 @@
 		<img class="project-image" src="http://herseydesigns.com/images/bg_images/malibuad1.jpg" alt="Malibu Boats" />
 		<img class="project-image" src="http://herseydesigns.com/images/bg_images/malibuad2.jpg" alt="Malibu Boats" />
 	</section>
-	
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="../js/scripts.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			//nav();
-			resizeCover('.project-description-panel');
-			// Listen for orientation changes
-			window.addEventListener("orientationchange", function() {
-				resizeCover('.project-description-panel');
-			}, false);
-			$('.project-description-panel').find('.down-arrow').on('touchstart click', function(e) {
-				$('html, body').animate({
-    				scrollTop: $('.project-description-panel').next().offset().top
-				}, 500);
-				e.preventDefault();
-			});
-			$( "#nav-toggle" ).on( "touchstart click", function(e) {
-				var navList = $('.nav-list');
-				if (!navList.is(':animated')) {
-					$( this ).toggleClass( "active" );
-					navList.slideToggle();
-				}
-				e.preventDefault();
-			});
-		});
-	</script>
-</body>
-</html>
+
+	<div class="row">
+		<div class="col-4 columns">
+			<h3 class="title">Concept</h3>
+			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
+		</div>
+		<div class="col-4 columns">
+			<h3 class="title">Project Lead</h3>
+			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+		</div>
+		<div class="col-4 columns">
+			<h3 class="title">Accusamus</h3>
+			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+		</div>
+	</div>
+<?php include("../includes/footer.php"); ?>

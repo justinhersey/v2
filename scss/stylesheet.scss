@@ -73,7 +73,6 @@ p {
 
 .nav {
 	@include clearfix;
-	background-color: $primaryColor;
 	padding-top: 5%;
 
 	padding-bottom: 0.9375em;
@@ -317,6 +316,38 @@ ul {
 	img {
 		width: 32px;
 		height: auto;
+	}
+}
+
+.hobie-cat-company {
+	position: relative;
+	&::after {
+		content: "";
+		background: url('../images/morgan-studio.jpg') no-repeat center top;
+		background-size: cover;
+		opacity: 0.2;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	}
+}
+
+.malibu-boats {
+	position: relative;
+	&::after {
+		content: "";
+		background: url('../images/malibu3.jpg') no-repeat center;
+		background-size: cover;
+		opacity: 0.2;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
 	}
 }
 

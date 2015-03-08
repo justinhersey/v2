@@ -1,9 +1,11 @@
 <!--[ hobie-cat-company/index.php ]-->
 <?php include("../includes/header.php"); ?>
-	<?php include("../includes/nav.php"); ?>
-	<div class="row">
-		<div class="col-12 columns">
-			<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company.</span> I was tasked with developing much of the way we market our products on our website. I develop the content for the project by first interviewing our product managers, product designers and engineers. In collaboration </p>
+	<div class="hobie-cat-company">
+		<?php include("../includes/nav.php"); ?>
+		<div class="row">
+			<div class="col-12 columns">
+				<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company.</span> I was tasked with developing much of the way we market our products on our website. I develop the content for the project by first interviewing our product managers, product designers and engineers. In collaboration </p>
+			</div>
 		</div>
 	</div>
 	<div class="row block-grid work">
