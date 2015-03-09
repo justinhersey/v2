@@ -74,7 +74,6 @@ p {
 .nav {
 	@include clearfix;
 	padding-top: 5%;
-
 	padding-bottom: 0.9375em;
 	li:first-child {
 		margin-top: 0.9375em;
@@ -91,6 +90,9 @@ p {
 		left: 0;
 		z-index: 1;
 		width: 100%;
+	}
+	@include breakpoint(mobileonly) {
+		padding-top: 10%;
 	}
 }
 
