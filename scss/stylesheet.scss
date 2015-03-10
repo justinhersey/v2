@@ -208,7 +208,10 @@ p {
 .subtitle {
 	font-size: 1rem;
 	font-family: 'Roboto Slab', serif;
- 	
+}
+
+.project-details {
+	margin-top: 3%;
 }
 
 .project-image {
@@ -304,6 +307,8 @@ ul {
 }
 
 .social-icons {
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
 	li {
 		margin-right: 8px;

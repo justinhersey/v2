@@ -5,18 +5,16 @@
 		<?php include("../includes/nav.php"); ?>
 		<div class="row">
 			<div class="col-12 columns">
-				<p class="lead-in"><span class="brand-emphasis">Malibu Boats.</span> Working with Flannel Design in Redmond, WA. I was given the opportunity to work with Malibu Boats on their annual brochure.</p>
+				<p class="lead-in"><span class="brand-emphasis">Malibu Boats.</span> I had the pleasure of working with Malibu Boats on their annual brochure. My role included design and photography art direction.</p>
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row project-details">
 		<div class="col-6 columns">
-			<h3 class="title">Concept</h3>
 			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
 		</div>
 		<div class="col-6 columns">
-			<h3 class="title">Concept</h3>
 			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
 		</div>
