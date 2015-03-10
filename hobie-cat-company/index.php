@@ -4,7 +4,7 @@
 		<?php include("../includes/nav.php"); ?>
 		<div class="row">
 			<div class="col-12 columns">
-				<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company.</span> In 2011 I was hired by Hobie Cat to redesign their U.S. consumer website. My role included design, photography art direction, front-end development and development of much of the product content.</p>
+				<p class="lead-in"><span class="brand-emphasis">Hobie Cat<sup>&reg;</sup> Company.</span> In 2011 I was hired by Hobie Cat to redesign their U.S. consumer website. My role included design, photography art direction, front-end development and product content curation.</p>
 			</div>
 		</div>
 	</div>
