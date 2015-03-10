@@ -117,9 +117,6 @@ p {
 }
 
 .site-name {
-	@include breakpoint(mobileonly) {
-		text-align: center;
-	}
 	font: {
 		@include heading-font;
 		size: 1.125em;
@@ -262,7 +259,6 @@ p {
 	}
 	line-height: 60px;	
 	@include breakpoint(mobileonly) {
-		text-align: center;
 		font: {
 			size: 1.3125em;
 		}
