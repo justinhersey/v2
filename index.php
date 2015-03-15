@@ -37,18 +37,6 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2><span>Logos &amp; Icons</span></h2>
-			<p>Design &amp; Art Direction</p>
-		</div>
-		<div class="col-4 columns">
-			<img src="build/images/mrms-logo.jpg" alt="Marvin Road Mini Storage Logo" />
-		</div><!--
-		--><div class="col-4 columns">
-			<img src="build/images/weather-icons.jpg" alt="Weather Icons" />
-		</div>
-	</div>
-	<div class="row block-grid work">
-		<div class="col-12 columns">
 			<h2><span>Smith Action Optics</span></h2>
 			<p>Design</p>
 		</div>
@@ -60,6 +48,33 @@
 		</div><!--
 		--><div class="col-4 columns">
 			<img src="build/images/smith3.jpg" alt="Malibu Boats" />
+		</div>
+	</div>	
+	<div class="row block-grid work">
+		<div class="col-12 columns">
+			<h2><span>Airstream</span></h2>
+			<p>Design</p>
+		</div>
+		<div class="col-4 columns">
+			<img src="build/images/airstream2.jpg" alt="Airstream" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/airstream1.jpg" alt="Airstream" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/airstream3.jpg" alt="Airstream" />
+		</div>
+	</div>
+	<div class="row block-grid work">
+		<div class="col-12 columns">
+			<h2><span>Logos &amp; Icons</span></h2>
+			<p>Design &amp; Art Direction</p>
+		</div>
+		<div class="col-4 columns">
+			<img src="build/images/mrms-logo.jpg" alt="Marvin Road Mini Storage Logo" />
+		</div><!--
+		--><div class="col-4 columns">
+			<img src="build/images/weather-icons.jpg" alt="Weather Icons" />
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>
