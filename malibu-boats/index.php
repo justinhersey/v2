@@ -11,7 +11,7 @@
 	</div>
 	<div class="row project-details">
 		<div class="col-6 columns">
-			<p>We begin with the creative brief. For many projects, this is a succinct document outlining the scope and deliverables of the project. The Hobie Livewell XL required nothing more than a one-page illustrated wireframe of sorts to develop the layout and photography art direction.</p>
+			<p>In addition to design, nearly every photograph in the brochure is hand drawn before hand to provide the photographer with a reference </p>
 		</div>
 		<div class="col-6 columns">
 			<p>I am involved in the process from concept to completion acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with a small team to execute the various stages of development. This includes working with our industrial designers, engineers and product managers to develop the project scope.</p>
