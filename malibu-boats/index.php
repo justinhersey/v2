@@ -5,7 +5,7 @@
 		<?php include("../includes/nav.php"); ?>
 		<div class="row">
 			<div class="col-12 columns">
-				<p class="lead-in"><span class="brand-emphasis">Malibu Boats.</span> I had the pleasure of working with Malibu Boats on their annual brochure. My role included design and photography art direction.</p>
+				<p class="lead-in"><span class="brand-emphasis">Malibu Boats.</span> A premium boat manufacturer produces an annual brochure to showcase their upcoming product line. This year, they were celebrating a twenty-five year anniversary. My role included design and photography art direction for their annual brochure.</p>
 			</div>
 		</div>
 	</div>
