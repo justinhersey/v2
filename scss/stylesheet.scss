@@ -7,6 +7,7 @@
 @import "colors";
 @import "animations";
 @import "weather";
+@import "icons";
 
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {
@@ -354,6 +355,14 @@ ul {
 		right: 0;
 		position: absolute;
 		z-index: -1;   
+	}
+}
+
+.project-url {
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
 	}
 }
 

@@ -1,0 +1,11 @@
+/*[ _icons.scss ]*/
+.icons-16 {
+	@include inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+.icon-16-plus {
+	@extend .icons-16;
+	background-image: url('../images/plus.svg');
+}

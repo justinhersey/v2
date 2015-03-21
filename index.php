@@ -7,7 +7,7 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2><span>Hobie Cat<sup>&reg;</sup> Company</span></h2>
+			<h2><a href="/hobie-cat-company/"><span>Hobie Cat<sup>&reg;</sup> Company</span></a></h2>
 			<p>Design, Front-end &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
@@ -22,7 +22,7 @@
 	</div>
 	<div class="row block-grid work">
 		<div class="col-12 columns">
-			<h2><span>Malibu Boats</span></h2>
+			<h2><a href="/malibu-boats/"><span>Malibu Boats</span></a></h2>
 			<p>Design &amp; Art Direction</p>
 		</div>
 		<div class="col-4 columns">
