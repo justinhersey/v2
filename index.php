@@ -2,13 +2,16 @@
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12 columns">
-			<p class="lead-in"><span class="brand-emphasis">Hello, I'm Justin.</span> I'm a designer working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration.</p>
+			<p class="lead-in"><span class="brand-emphasis">Hello, I'm Justin.</span> I'm a designer working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration. Have a look at the work below and let me know if you have any questions.</p>
 		</div>
 	</div>
 	<div class="row block-grid work">
-		<div class="col-12 columns">
-			<h2><a class="project-url" href="/hobie-cat-company/"><span>Hobie Cat<sup>&reg;</sup> Company</span></a></h2>
+		<div class="col-8 columns">
+			<h2><span>Hobie Cat<sup>&reg;</sup> Company</span></h2>
 			<p>Design, Front-end &amp; Art Direction</p>
+		</div><!--
+	--><div class="col-4 columns">
+			<a class="button" href="/hobie-cat-company/">Review Project</a>
 		</div>
 		<div class="col-4 columns">
 			<img src="build/images/sidekick-ama-kit.png" alt="Sidekick Ama Kit" />
@@ -21,9 +24,12 @@
 		</div>
 	</div>
 	<div class="row block-grid work">
-		<div class="col-12 columns">
-			<h2><a class="project-url" href="/malibu-boats/"><span>Malibu Boats</span></a></h2>
+		<div class="col-8 columns">
+			<h2><span>Malibu Boats</span></h2>
 			<p>Design &amp; Art Direction</p>
+		</div><!--
+	--><div class="col-4 columns">
+			<a class="button" href="/malibu-boats/">Review Project</a>
 		</div>
 		<div class="col-4 columns">
 			<img src="build/images/malibu2.jpg" alt="Malibu Boats" />

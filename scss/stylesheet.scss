@@ -183,10 +183,6 @@ p {
 		}
 		margin-top: 0;
 		margin-bottom: 0;
-		span {
-			border-top: #fff 2px solid;
-			padding-top: 4px;
-		}
 	}
 	p {
 		margin-top: 0;
@@ -330,7 +326,7 @@ ul {
 	position: relative;
 	&::after {
 		content: "";
-		background: url('../images/hobie-mast.jpg') no-repeat center top;
+		background: url('../images/morgan-studio.jpg') no-repeat center top;
 		background-size: cover;
 		opacity: 0.2;
 		top: 0;
