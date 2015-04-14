@@ -13,7 +13,7 @@
 			<h3 class="title">Project Overview</h3>
 		</div>
 		<div class="col-6 columns">
-			<p>Every successful website relies on thoughtful, quality content. One of the first things I did at Hobie Cat was take stock of current assets by first interviewing our product managers, product designers and engineers. In collaboration with various departments we made changes to the process of how and why assets and other content would be creating moving forward and began developing the content for the new website.</p>
+			<p>Every successful website relies on thoughtful, quality content. One of the first things I did at Hobie Cat was take stock of current assets by first interviewing our product managers, product designers and engineers. In collaboration with various departments we made changes to the process of how and why assets and other content would be created moving forward and began developing the content for the new website.</p>
 		</div>
 		<div class="col-6 columns">
 			<p>I am involved in the process from concept to completion, acting in various roles from project manager, art director and lead front-end designer. Each project typically involves working with various departments to develop the project scope. Sketching each layout before hand helps us to quickly decide what elements we need to include as well as gives us a rough idea of how the page is going to look. These sketches are also used as reference for studio photography.</p>
