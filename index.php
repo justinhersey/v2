@@ -2,7 +2,7 @@
 	<?php include("includes/nav.php"); ?>
 	<div class="row">
 		<div class="col-12 columns">
-			<p class="lead-in"><span class="brand-emphasis">Hello, I'm Justin.</span> I'm a designer working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration. Have a look at the work below and let me know if you have any questions.</p>
+			<p class="lead-in"><span class="brand-emphasis">Hello, I&rsquo;m Justin Hersey.</span> I&rsquo;m a designer working in web marketing. I identify and define opportunities, and develop solutions by leading teams through collaboration. Have a look at the work below and let me know if you have any questions.</p>
 		</div>
 	</div>
 	<div class="row work">
