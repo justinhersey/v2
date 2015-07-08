@@ -8,7 +8,7 @@
 	<div class="row work">
 		<div class="col-8 columns">
 			<h2><span>Hobie Cat<sup>&reg;</sup> Company</span></h2>
-			<p>Design, Front-end &amp; Art Direction</p>
+			<p>Design, Front-end Development &amp; Art Direction</p>
 		</div><!--
 	--><div class="col-4 columns">
 			<a class="button" href="/hobie-cat-company/">Review Project</a>
