@@ -1,7 +1,7 @@
 <nav class="nav">
 	<div class="row">
 		<div class="col-12 columns">
-			<div class="site-name"><a href="/"><img src="../build/images/jh-logo.png" />I am Justin Hersey</a></div>
+			<a href="/"><img src="../build/images/jh-logo.png" /><div class="site-name">I am Justin Hersey</div></a>
 			<!--<a id="nav-toggle" class="nav-toggle" href="#"><span></span></a>-->
 		</div>
 		<div class="col-12 columns">
